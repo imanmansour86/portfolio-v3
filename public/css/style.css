@@ -54,12 +54,12 @@ img {
 
 .card-text {
   font-size: 20px;
-  color: black;
+  color: white;
 }
 
 .card-title {
   font-size: 25px;
-  color: black;
+  color: white;
 }
 
 .project-link {
@@ -118,9 +118,13 @@ img {
   padding-left: 125px;
 }
 
+.card {
+  width: 600px;
+}
 .card-body {
   justify-content: center;
-  padding-top: 50px;
+
+  background-color: 545454;
 }
 
 .container {
