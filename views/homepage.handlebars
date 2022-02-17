@@ -10,9 +10,9 @@
         <p class="card-text"> {{project.description}}</p>
         <p class="card-text">
           <div class="links">
-          <a class="project-link" href="{{project.repo_url}}" >Repo</a>
+          <a target="blank" class="project-link" href="{{project.repo_url}}" >Repo</a>
           
-          <a  class="project-link"  href="{{project.deployed_url}}">Deployed</a>
+          <a  target="blank" class="project-link"  href="{{project.deployed_url}}">Deployed</a>
           </div></p>
       </div>
     </div>
@@ -20,27 +20,33 @@
 
 {{/each}}
 
-<div class="alert alert-secondary" role="alert">
+<div class="alert alert-secondary title" role="alert">
  Skills
 </div>
 
-<div class="row"></div>
-{{#each skills as |skill|}}
+<div class="row skills">
 <ul>
+{{#each skills as |skill|}}
+
 {{> skills }}
-</ul>
-
-
-
 
 
 {{/each}}
+</ul>
 </div>
 
 
-{{!-- {{/each}}
+<div>
+<div class="alert alert-secondary title" role="alert">
+ Employment
+</div>
 
-{{#each skills as |skill|}}
-{{> skills }}
+<div class="row ">
+<ul>
+  {{#each employments as |employments|}}
+{{> employments }}
+{{/each}}
+</ul>
+</div>
 
-{{/each}} --}}
+

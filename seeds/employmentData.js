@@ -2,7 +2,7 @@ const { Employment } = require("../models");
 
 const employmentData = [
   {
-    employeer: "Apple",
+    employeer: "Apple, Inc.",
     position: "Software QA Engineer",
   },
 ];
