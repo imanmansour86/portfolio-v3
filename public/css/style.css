@@ -6,22 +6,25 @@
   background-image: linear-gradient(315deg, #000000 0%, #414141 74%); */
 }
 
-html,
+/* html,
 body {
   background-color: #6e6e6e;
   /* background-color: #1b1b1b; */
 
-  /* background-color: #000000;
+/* background-color: #000000;
   background-image: linear-gradient(315deg, #000000 0%, #414141 74%); */
-  font-family: "Lora", serif;
-}
+/* font-family: "Lora", serif;
+} */
 
-.alert-success {
-  background-color: #6e6e6e;
-  /* background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #414141 74%); */
-  color: black;
-  border: none;
+body {
+  background-image: url("https://img.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-444.jpg?size=626&ext=jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: "Lora", sans-serif;
 }
 
 .navbar-brand {
@@ -51,7 +54,7 @@ img {
 
 .card-text {
   font-size: 20px;
-  color: white;
+  color: black;
 }
 
 .card-title {
@@ -69,11 +72,6 @@ img {
 
 .badge {
   font-size: 30px;
-}
-
-.alert {
-  font-size: 30px;
-  color: white;
 }
 
 .list-group-item {
@@ -104,11 +102,10 @@ img {
 }
 
 .skills {
-  /* background-color: 545454; */
-  font-size: 20px;
-  color: #bcfd4c;
-  font-weight: lighter;
   background-color: #6e6e6e;
+
+  font-size: 15px;
+  color: white;
 }
 
 .fab,
@@ -119,4 +116,13 @@ img {
 
 .date {
   padding-left: 125px;
+}
+
+.card-body {
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.container {
+  padding: 40px;
 }
