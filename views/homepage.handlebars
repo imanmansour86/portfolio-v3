@@ -1,20 +1,4 @@
-{{!-- 
-<div class="container">
-  
 
-    <div class="row">
-      <div class="col-4">
-        <img src="/images/getmoving.png" alt="getMoving image" />
-        {{project.title}}
-      </div>
-      <div class="col-8">
-        {{project.description}}
-      </div>
-    </div>
-
-  {{/each}}
-
-</div> --}}
 {{#each projects as |project|}}
   <div class="row">
     <div class="col-md-4">
@@ -24,9 +8,10 @@
       <div class="card-body">
         <h5 class="card-title"> {{project.title}}</h5>
         <p class="card-text"> {{project.description}}</p>
-        <p class="card-text"><small class="text-muted">
+        <p class="card-text">
           <div class="links">
           <a class="project-link" href="{{project.repo_url}}" >Repo</a>
+          
           <a  class="project-link"  href="{{project.deployed_url}}">Deployed</a>
           </div></p>
       </div>
@@ -35,9 +20,27 @@
 
 {{/each}}
 
+<div class="alert alert-secondary" role="alert">
+ Skills
+</div>
 
+<div class="row"></div>
+{{#each skills as |skill|}}
+<ul>
+{{> skills }}
+</ul>
+
+
+
+
+
+{{/each}}
+</div>
+
+
+{{!-- {{/each}}
 
 {{#each skills as |skill|}}
 {{> skills }}
 
-{{/each}}
+{{/each}} --}}

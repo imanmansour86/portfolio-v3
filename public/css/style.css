@@ -48,3 +48,27 @@ img {
 .copyright {
   font-size: 15px;
 }
+
+.badge {
+  font-size: 30px;
+}
+
+.alert {
+  font-size: 30px;
+}
+
+.list-group-item {
+  font-size: 50px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-link {
+  font-size: 18px;
+  text-decoration: underline;
+  color: black;
+  text-decoration-skip-ink: none;
+}
