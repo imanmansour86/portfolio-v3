@@ -1,21 +1,23 @@
 .navbar {
   justify-content: flex-end;
   padding: 10px;
-  /* background-color: #545454 !important; */
-  background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+  background-color: #6e6e6e !important;
+  /* background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%); */
 }
 
 html,
 body {
-  /* background-color: #545454; */
-  background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+  background-color: #6e6e6e;
+  /* background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%); */
   font-family: "Lora", serif;
 }
 
 .alert-success {
-  background-color: #545454;
+  background-color: #6e6e6e;
+  /* background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%); */
   color: black;
   border: none;
 }
@@ -89,7 +91,9 @@ img {
 }
 
 .title {
-  background-color: 545454;
+  /* background-color: 545454; */
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
   text-align: center;
   border: none;
   color: black;
@@ -98,5 +102,18 @@ img {
 
 .skills {
   /* background-color: 545454; */
-  font-size: 23px;
+  font-size: 20px;
+  color: #bcfd4c;
+  font-weight: lighter;
+  background-color: #6e6e6e;
+}
+
+.fab,
+.fas,
+.text-center {
+  color: white;
+}
+
+.date {
+  padding-left: 125px;
 }
