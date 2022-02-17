@@ -23,6 +23,8 @@ router.get("/", async (req, res) => {
 
     res.render("homepage", {
       projects,
+      skills,
+      employments,
     });
   } catch (err) {
     console.log(err);
