@@ -23,6 +23,28 @@ body {
 
 img {
   max-width: 600px;
-  height: 350px;
+  height: 200px;
   width: auto;
+}
+
+.row {
+  padding-bottom: 40px;
+}
+
+.card-text {
+  font-size: 20px;
+  color: black;
+}
+
+.card-title {
+  font-size: 25px;
+  color: black;
+}
+
+.project-link {
+  font-size: 15px;
+}
+
+.copyright {
+  font-size: 15px;
 }
