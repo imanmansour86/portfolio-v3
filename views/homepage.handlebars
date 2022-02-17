@@ -1,8 +1,11 @@
-
 {{#each projects as |project|}}
   <div class="row">
     <div class="col-md-4">
-      <img src="/images/{{project.project_image}}" class="card-img" alt="get moving image" />
+      <img
+        src="/images/{{project.project_image}}"
+        class="card-img"
+        alt="get moving image"
+      />
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -10,9 +13,17 @@
         <p class="card-text"> {{project.description}}</p>
         <p class="card-text">
           <div class="links">
-          <a target="blank" class="project-link" href="{{project.repo_url}}" >Repo</a>
-          
-          <a  target="blank" class="project-link"  href="{{project.deployed_url}}">Deployed</a>
+            <a
+              target="blank"
+              class="project-link"
+              href="{{project.repo_url}}"
+            >Repo</a>
+
+            <a
+              target="blank"
+              class="project-link"
+              href="{{project.deployed_url}}"
+            >Deployed</a>
           </div></p>
       </div>
     </div>
@@ -20,33 +31,59 @@
 
 {{/each}}
 
-<div class="alert alert-secondary title" role="alert">
- Skills
-</div>
 
-<div class="row skills">
-<ul>
-{{#each skills as |skill|}}
+
+    <div class="d-flex justify-content-center container">
+      <div class="head row">
+
+        <div class="card">
+          <div
+            class="card-body"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-center"
+          >
+            <h5 class="card-title">Skills</h5>
+         <ul class="list-group list-group-flush">
+  
+  {{#each skills as |skill|}}
 
 {{> skills }}
 
 
 {{/each}}
-</ul>
-</div>
+
+  </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
 
 
-<div>
-<div class="alert alert-secondary title" role="alert">
- Employment
-</div>
 
-<div class="row ">
-<ul>
+
+<div class="d-flex justify-content-center container">
+      <div class="head row">
+
+        <div class="card">
+          <div
+            class="card-body"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-center"
+          >
+            <h5 class="card-title">Skills</h5>
+         <ul>
   {{#each employments as |employments|}}
 {{> employments }}
 {{/each}}
 </ul>
-</div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
 
 
