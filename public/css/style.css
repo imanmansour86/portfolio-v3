@@ -1,0 +1,28 @@
+.navbar {
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: #545454 !important;
+}
+
+body {
+  background-color: #545454;
+}
+.navbar-brand {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white !important;
+}
+.button {
+  color: rgba(54, 50, 50, 0.8);
+  padding: 15px 20px;
+  transition: all 0.2s ease-in-out;
+}
+.glow-button:hover {
+  color: rgb(26, 19, 19);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+img {
+  max-width: 600px;
+  height: 350px;
+  width: auto;
+}

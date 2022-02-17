@@ -1,5 +1,37 @@
-{{#each projects as |project|}}
+{{!-- 
+<div class="container">
+  
 
-  <div>{{project.title}}</div>
-  <div>{{project.description}}</div>
+    <div class="row">
+      <div class="col-4">
+        <img src="/images/getmoving.png" alt="getMoving image" />
+        {{project.title}}
+      </div>
+      <div class="col-8">
+        {{project.description}}
+      </div>
+    </div>
+
+  {{/each}}
+
+</div> --}}
+{{#each projects as |project|}}
+  <div class="row">
+    <div class="col-md-4">
+      <img src="/images/{{project.project_image}}" class="card-img" alt="get moving image" />
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title"> {{project.title}}</h5>
+        <p class="card-text"> {{project.description}}</p>
+        <p class="card-text"><small class="text-muted">
+          <div class="links">
+          <a href="{{project.repo_url}}" >Repo</a>
+          <a href="{{project.deployed_url}}">Deployed</a>
+          </div></p>
+      </div>
+    </div>
+  </div>
 {{/each}}
+
+
