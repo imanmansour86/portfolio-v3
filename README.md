@@ -29,6 +29,14 @@ This website shows Portfolio page. Users can view projects created by the portfo
 
 ![Homepage](/public/images/home.png)
 
+- Skills
+
+![Homepage](/public/images/skills.png)
+
+- Footer
+
+![Homepage](/public/images/footer.png)
+
 ## Features
 
 The website has 3 models, Employment, Skill, and Project. The data from the db is retrieved using GET request as JSON, then fed to the clientjs engine to render the html. The app uses AOS animattion library to animate parts of the html.
