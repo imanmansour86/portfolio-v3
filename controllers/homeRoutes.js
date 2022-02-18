@@ -10,23 +10,6 @@ router.get("/projects", async (req, res) => {
       project.get({ plain: true })
     );
 
-    //all skills
-    // const dBskillData = await Skill.findAll({});
-    // const skills = dBskillData.map((skill) => skill.get({ plain: true }));
-
-    //all employment
-    // const dBemploymenttData = await Employment.findAll({});
-    // const employments = dBemploymenttData.map((employment) =>
-    //   employment.get({ plain: true })
-    // );
-    // console.log("all", projects, skills, employments);
-
-    // res.render("homepage", {
-    //   projects,
-    //   skills,
-    //   employments,
-    // });
-
     res.json(projects);
   } catch (err) {
     console.log(err);
