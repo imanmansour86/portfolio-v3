@@ -6,7 +6,7 @@
 
 # Portfolio
 
-This app shows Portfolio page. Users can view projects created by the portfolio owner, as well as contact the owner for information. Each project has a title, descriptions, and link to repo URL and demo URL/demo video. The website uses Handlebars.js as the templating language and Sequelize as the ORM.
+This website shows Portfolio page. Users can view projects created by the portfolio owner, as well as contact the owner for information. Each project has a title, descriptions, and link to repo URL and demo URL/demo video. The website uses Handlebars.js as the templating language and Sequelize as the ORM.
 
 ## Deployed Link
 
