@@ -1,9 +1,9 @@
 .navbar {
   justify-content: flex-end;
   padding: 10px;
-  background-color: #6e6e6e !important;
-  /* background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #414141 74%); */
+  /* background-color: #6e6e6e !important; */
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
 }
 
 /* html,
@@ -64,6 +64,7 @@ img {
 
 .project-link {
   font-size: 15px;
+  color: white;
 }
 
 .copyright {
@@ -86,7 +87,8 @@ img {
 .project-link {
   font-size: 18px;
   text-decoration: underline;
-  color: black;
+  color: #a26360;
+  font-weight: bolder;
   text-decoration-skip-ink: none;
 }
 
@@ -102,7 +104,7 @@ img {
 }
 
 .skills {
-  background-color: #6e6e6e;
+  background-color: 545454;
 
   font-size: 15px;
   color: white;
@@ -120,13 +122,18 @@ img {
 
 .card {
   width: 600px;
+  background-color: transparent !important;
 }
 .card-body {
   justify-content: center;
-
-  background-color: 545454;
+  padding-top: 20px;
+  background-color: transparent !important;
 }
 
 .container {
   padding: 40px;
+}
+
+li {
+  background-color: red;
 }
