@@ -84,7 +84,6 @@ img {
 
 .title {
   background-color: #6e6e6e;
-
   background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
   text-align: center;
   border: none;
@@ -117,8 +116,4 @@ img {
 
 .container {
   padding: 40px;
-}
-
-li {
-  background-color: red;
 }
