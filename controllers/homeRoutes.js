@@ -47,4 +47,18 @@ router.get("/skills", async (req, res) => {
   }
 });
 
+//GET all employment
+router.get("/employment", async (req, res) => {
+  try {
+    const dBemploymenttData = await Employment.findAll({});
+    const employments = dBemploymenttData.map((employment) =>
+      employment.get({ plain: true })
+    );
+
+    res.json(employments);
+  } catch (err) {
+    console.log(err);
+    res.status(500).json(err);
+  }
+});
 module.exports = router;
