@@ -4,7 +4,7 @@ const projectData = [
   {
     title: "Get Moving",
     description:
-      "Social exercise activity app the allows users to add and view activities, as well as signup for activities. Built using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication",
+      "Social exercise activity app that allows users to add and view activities, as well as signup for activities. Built using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication",
     repo_url: "https://github.com/imanmansour86/get-moving",
     deployed_url: "https://pacific-wildwood-76799.herokuapp.com/",
     project_image: "getmoving.png",
@@ -30,7 +30,7 @@ const projectData = [
   {
     title: "Employee-Tracker",
     description:
-      "A command-line application that manages a company's employee database. It allows to easily view and interact with employee information stored in databases. The application is built using Node.js, Inquirer, and MySQL.",
+      "A command-line application that manages a company's employee database. It allows to easily view and interact with employee information stored in databases. The application is built using Node.js, Inquirer, and MySQL",
     repo_url: "https://github.com/imanmansour86/Employee-Tracker",
     deployed_url: "https://watch.screencastify.com/v/NEtzeYUpvafSa7xJlmxW",
     project_image: "tracker.png",
@@ -39,7 +39,7 @@ const projectData = [
   {
     title: "Code quiz",
     description:
-      "A timed quiz coding app about JavaScript fundamentals. It runs in the browser and features dynamically updated content powered by Javascript.",
+      "A timed quiz coding app about JavaScript fundamentals. It runs in the browser and features dynamically updated content powered by Javascript",
     repo_url: "https://github.com/imanmansour86/code-quiz",
     deployed_url: "https://imanmansour86.github.io/code-quiz/",
     project_image: "quiz.png",
