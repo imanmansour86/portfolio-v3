@@ -6,8 +6,7 @@
 
 # Portfolio
 
-This website shows Portfolio page. Users can view projects created by the portfolio owner, as well as contact the owner for information. Each project has a title, descriptions, and link to repo URL and demo URL/demo video. The website Sequelize as the ORM
-with client side JS that request JSON from API routes from the database query.
+This website shows Portfolio page. Users can view projects created by the portfolio owner, as well as contact the owner for information. Each project has a title, descriptions, and link to repo URL and demo URL/demo video. The website uses Sequelize as the ORM with client side JS that request JSON from API routes from the database query.
 
 ## Deployed Link
 
@@ -32,7 +31,7 @@ with client side JS that request JSON from API routes from the database query.
 
 ## Features
 
-The website has 3 models, Employment, Skill, and Project. The data from the db is retrieved using GET request as JSON, then fed to the clientjs engine to render the html. The app uses AOS animattion library to animate parts of the cards.
+The website has 3 models, Employment, Skill, and Project. The data from the db is retrieved using GET request as JSON, then fed to the clientjs engine to render the html. The app uses AOS animattion library to animate parts of the html.
 
 ## Built With
 
